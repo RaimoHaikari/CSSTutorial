@@ -1,0 +1,11 @@
+services:
+
+  nginx:
+    container_name: css_tut_server
+    build:
+      context: ./nginx/
+    ports:
+      - 81:80
+    volumes:
+      - ./nginx/html/:/usr/share/nginx/html/
+      - ./nginx/conf.d:/etc/nginx/conf.d/

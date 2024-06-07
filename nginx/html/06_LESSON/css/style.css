@@ -1,0 +1,25 @@
+body {
+    padding: 10%;
+    border: 1px solid red;
+    
+    font-size: 2rem;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+input, button {
+    font: inherit;
+}
+
+h1 {
+    letter-spacing: 0.1em;
+}
+
+p {
+    text-indent: 2em;
+    line-height: 1.5;
+}
+
+.lineThrough {
+    text-decoration: line-through;
+}

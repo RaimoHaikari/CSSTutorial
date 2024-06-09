@@ -84,6 +84,11 @@ css-reset lohkossa käytetään usein box-sizing asetusta. Tämä määrittää 
 - Jotta media queryt toimisivat, pitää seuraava määritys löytyä HTML HEAD sectiosta: <meta name="viewport" content="width=device-width, initial-scale=1.0">
 - esimerkin tapauksessa korkeuksia määritetty: sivu vähintään 100vh & main: flex käytä kaikki vapaa tila .. joten koko sivu aina täyttyy.
 
+### Pseudo
+
+- :target pseudo-luokalla voidaan määrittää esim. linkin kohteena olleelle kortille eri värinen tausta tms.
+- nt-child(x) laskee järjestyksen sen perustella, miten elementit on lisätty sivulle. Jos elementtien järjestystä on *uusittu esim. grid-layoutin order attribuutin avulla, tämä muutos ei heijastu nth-child() -valitsimen toimintaan
+
 
 Linkkejä
 

@@ -89,6 +89,10 @@ footer {
   align-items: center;
 }
 
+.card:target {
+  border: 2px solid red;
+}
+
 .card figure {
   display: flex;
   flex-flow: column nowrap;
@@ -104,6 +108,17 @@ footer {
   font-size: 2rem;
   margin: 1rem;
   text-align: center;
+}
+
+.card figcaption::first-letter {
+  font-size: 3rem;
+  color: red;
+}
+
+
+
+.card:nth-child(2){
+  background-color: yellow;
 }
 
 /* || SMALL */
